@@ -1,0 +1,14 @@
+{
+  "name": "glue/core",
+  "type": "library",
+  "description": "Core of the Qoopido Glue Framework for PHP 5.4+",
+  "keywords": ["php","framework"],
+  "require": {
+    "php": ">=5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Glue\\": "src/"
+    }
+  }
+}
